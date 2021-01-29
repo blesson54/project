@@ -1,0 +1,23 @@
+List 1
+
+numbers = [15, -14, 7,- 5, 19]
+
+for val in numbers:
+    if val <= 0:   # condition for negative number
+        continue
+    print(val)
+
+print('This is outside the loop.')
+
+List 2
+
+
+numbers = [1, 4, -100, 5, -9]
+
+for val in numbers:
+    if val <= 0:   # condition for negative number
+        continue
+    print(val)
+
+print('This is outside the loop.')
+
